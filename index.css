@@ -11,3 +11,36 @@ img {
   width: 12%;
   height: 12%;
 }
+
+.top-half {
+  text-align: center;
+}
+.horizantal-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+  padding: 0;
+  
+}
+.image {
+  margin: 15px;
+  justify-content: center;
+}
+
+.links{
+  display: flex;
+}
+
+.layout{
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+.layout img{
+  width: 25%;
+  height: auto;
+}
+.section{
+  flex: 1;
+}
